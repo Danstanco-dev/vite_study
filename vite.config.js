@@ -75,5 +75,7 @@ export default defineConfig({
     headers: {
       a: 'b'
     }
-  } 
+  },
+  // deploying with Vite
+  base: '/vite_study/' 
 });
